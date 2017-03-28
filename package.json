@@ -1,0 +1,34 @@
+{
+  "name": "musical_squares",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack --watch",
+    "start": "webpack-dev-server --inline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyleySill93/musical_squares.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RyleySill93/musical_squares/issues"
+  },
+  "homepage": "https://github.com/RyleySill93/musical_squares#readme",
+  "dependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.3",
+    "redux": "^3.6.0",
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.4.2"
+  }
+}

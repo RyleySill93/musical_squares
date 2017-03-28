@@ -14,5 +14,5 @@ const changeColor = (num) => {
 
 export const playLoop = (num = 1) => {
   changeColor(num);
-  window.setTimeout(() => { num <= 16 ? playLoop(num + 1) : playLoop(1); }, 120);
+  window.setTimeout(() => { num <= 15 ? playLoop(num + 1) : playLoop(1); }, 120);
 };

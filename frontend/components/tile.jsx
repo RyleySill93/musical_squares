@@ -21,6 +21,12 @@ class Tile extends React.Component {
     }
   }
 
+  // myElement.addEventListener("mouseover", function(e){
+  //     if(e.buttons == 1 || e.buttons == 3){
+  //         //do some stuff
+  //     }
+  // })
+
   render () {
     return (
       <div className={this.className()}

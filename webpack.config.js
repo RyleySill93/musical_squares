@@ -3,7 +3,7 @@ var path = require('path');
 module.exports = {
   entry: './frontend/musical_tiles.jsx',
   output: {
-    filename: './bundle.js',
+    filename: '/docs/bundle.js',
   },
   module: {
     loaders: [

@@ -3,9 +3,9 @@ const changeColor = (num) => {
   if (col) {
     window.setTimeout(() => {
       const arr = Array.from(col.querySelectorAll('.tile-selected'));
-      const arrIds = arr.map(el => el.id);
-      const audios = arr.map(el => `${el}.mp3`);
       arr.forEach(el => (el.className = `tile-selected hit`));
+      const arrIds = arr.map(el => el.id.slice(5, el.id.length));
+      const audios = arrIds.map(el => new Audio(`tones/${el}.mp3`));
       audios.forEach(el => (el.play()));
       window.setTimeout(() => arr.forEach(el => (el.className = `tile-selected`)), 200);
     }, 120);

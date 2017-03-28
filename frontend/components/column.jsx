@@ -1,14 +1,9 @@
 import React from 'react';
 import Tile from './tile';
-import { playLoop } from './player';
 
 class Column extends React.Component {
   constructor (props) {
     super(props);
-  }
-
-  componentDidMount () {
-    playLoop();
   }
 
   render () {

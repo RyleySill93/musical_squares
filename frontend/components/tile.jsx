@@ -26,7 +26,7 @@ class Tile extends React.Component {
       <div className={this.className()}
            key={`Tile ${this.props.x}, ${this.props.y}`}
            onClick={this.handleClick}
-           id={`Tile ${this.props.y}`}>
+           id={[this.props.x, this.props.y]}>
       </div>
     );
   }

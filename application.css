@@ -42,29 +42,10 @@ h1 {
 
   cursor: pointer;
   position: relative;
-  /*-webkit-animation-duration: 0.2s;*/
-
-  /*box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 12px;*/
-  /*-webkit-animation: blinkRed 0.5s infinite;
-  -moz-animation: blinkRed 0.5s infinite;
-  -ms-animation: blinkRed 0.5s infinite;
-  -o-animation: blinkRed 0.5s infinite;*/
 }
-
-/*.tile-hit {
-  border-radius: 2px;
-  width: 20px;
-  height: 20px;
-  margin: 7px;
-  background-color: #EEEEEE;
-  cursor: pointer;
-  position: relative;
-  animation: blink 0.2s;
-}*/
 
 .hit {
   animation: blink 0.2s;
-  
 }
 
 #selected {

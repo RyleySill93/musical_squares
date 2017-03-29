@@ -2,12 +2,10 @@ import React from 'react';
 import Column from './column';
 import { playLoop } from './player';
 
-
 class Grid extends React.Component {
 
   componentDidMount () {
     playLoop();
-
   }
 
   render () {

@@ -3,9 +3,8 @@ const playColumn = (num) => {
   if (col) {
     window.setTimeout(() => {
       const arr = Array.from(col.querySelectorAll('.tile-selected'));
-      console.log('arr', arr);
       arr.forEach(el => (el.className = `tile-selected hit`));
-      const arrIds = arr.map(el => el.id.slice(2,el.id.length));
+      const arrIds = arr.map(el => el.id.split(',')[1]);
       const audios = arrIds.map(el => new Audio(`tones/${el}.mp3`));
       audios.forEach(el => (el.play()));
       window.setTimeout(() => arr.forEach(el => (el.className = `tile-selected`)), 200);

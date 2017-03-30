@@ -6,7 +6,7 @@ class Root extends React.Component {
   render () {
     return (
       <div >
-        <h1>Musical Squares</h1>
+        <h1>PENTATONIX</h1>
         <Grid />
       </div>
     );

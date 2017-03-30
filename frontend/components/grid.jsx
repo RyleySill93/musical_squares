@@ -4,6 +4,10 @@ import { playLoop } from './player';
 
 class Grid extends React.Component {
 
+  constructor (props) {
+    super(props);
+  }
+
   componentDidMount () {
     playLoop();
   }

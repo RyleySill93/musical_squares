@@ -1,13 +1,22 @@
 import React from 'react';
-import Grid from './grid';
+import Column from './column';
+import { playLoop } from './player';
 
 class Root extends React.Component {
 
+  componentDidMount () {
+    playLoop();
+  }
+
   render () {
+    let cols = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16];
+    let grid = cols.map(idx => <Column idx={idx} key={idx} />);
     return (
-      <div >
+      <div>
         <h1>PENTATONIX</h1>
-        <Grid />
+        <div id="grid">
+          { grid }
+        </div>
       </div>
     );
   }

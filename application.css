@@ -52,27 +52,7 @@ h1 {
 #selected {
   background-color: white;
 }
-/*
-@-webkit-keyframes blinkRed {
-    from { background-color: #F00; }
-    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px
-    to { background-color: #F00; }
-}
-@-moz-keyframes blinkRed {
-    from { background-color: #F00; }
-    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px
-    to { background-color: #F00; }
-}
-@-ms-keyframes blinkRed {
-    from { background-color: #F00; }
-    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px
-    to { background-color: #F00; }
-}
-@-o-keyframes blinkRed {
-    from { background-color: #F00; }
-    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px
-    to { background-color: #F00; }
-}*/
+
 @keyframes blink {
     from { background-color: #eee; }
     50% { background-color: #fff; box-shadow: 0px 0px 40px 25px #FFF;

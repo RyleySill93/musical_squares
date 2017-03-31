@@ -4,6 +4,11 @@ Pentatonix is a website inspired by Tonematrix. The project allows users
 to select notes on a grid from the pentatonic scale which will be played
 when looped over.
 
+[Demo][demo]
+
+[demo]: https://ryleysill93.github.io/musical_squares/
+
+
 ## Features & Implementation
 
 #### Playing the Grid

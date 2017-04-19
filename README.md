@@ -1,8 +1,7 @@
 # Pentatonix
 
-Pentatonix is a website inspired by Tonematrix. The project allows users
-to select notes on a grid from the pentatonic scale which will be played
-when looped over.
+Pentatonix is a website inspired by Tonematrix. It is a minimalist electronic built with
+vanilla JavaScript.
 
 [Demo][demo]
 

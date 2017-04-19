@@ -6,7 +6,7 @@ when looped over.
 
 [Demo][demo]
 
-[demo]: https://ryleysill93.github.io/musical_squares/
+[demo]: https://ryleysill93.github.io/pentatonix/
 
 ![pentatonix](/docs/pentatonix.png)
 

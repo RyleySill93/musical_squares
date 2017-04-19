@@ -8,7 +8,7 @@ when looped over.
 
 [demo]: https://ryleysill93.github.io/musical_squares/
 
-![alt text](/docs/pentatonix)
+![pentatonix](/docs/pentatonix.png)
 
 
 ## Features & Implementation

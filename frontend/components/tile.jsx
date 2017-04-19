@@ -16,11 +16,7 @@ class Tile extends React.Component {
   className () {
     return this.state.selected ? "tile-selected" : "tile";
   }
-
-  secondaryHit () {
-
-  }
-
+  
   render () {
     return (
       <div className={this.className()}

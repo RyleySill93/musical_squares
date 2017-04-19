@@ -17,6 +17,11 @@ class Root extends React.Component {
         <div id="grid">
           { grid }
         </div>
+        <h1>Pure CSS 3D flip buttons</h1>
+        <div className="button-row">
+          <div><a title="Button"></a></div>
+          <div><a title="another!"></a></div>
+        </div>
       </div>
     );
   }
